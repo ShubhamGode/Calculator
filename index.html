@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Calculator to calculate basic operations">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+     </head>
+     <body>
+        <table class="calcy">
+            <tr>
+                <td colspan="5"><input class="screen" id="screen" type="text" disabled></td>
+            </tr>
+            <tr>
+                <td><input type="button" id="opr" value="(" onclick='display("(")'></td>                
+                <td><input type="button" id="opr" value=")" onclick="display(')')"></td>
+                <td><input type="button" id="opr" value="ans" onclick="equal('ans')"></td>
+                <td><input type="button" id="opr" value="del" onclick="backspace('del')"></td>
+                <td><input type="button" id="clear" value="clear" onclick="clearscreen('clear')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" id="num" value="7" onclick="display('7')"></td>                
+                <td><input type="button"  id="num" value="8" onclick="display('8')"></td>
+                <td><input type="button"  id="num" value="9" onclick="display('9')"></td>
+                <td><input type="button"  id="num" value="%" onclick="display('%')"></td>
+                <td><input type="button"  id="opr" value="&Sqrt;" onclick="display('&Sqrt;')"></td>
+            </tr>
+            <tr>
+                <td><input type="button"  id="num" value="4" onclick="display('4')"></td>                
+                <td><input type="button"  id="num" value="5" onclick="display('5')"></td>
+                <td><input type="button"  id="num" value="6" onclick="display('6')"></td>
+                <td><input type="button" id="opr" value="*" onclick="display('*')"></td>
+                <td><input type="button" id="opr" value="/" onclick="display('/')"></td>
+            </tr>
+            <tr>
+                <td><input type="button"  id="num" value="1" onclick="display('1')"></td>                
+                <td><input type="button"  id="num" value="2" onclick="display('2')"></td>
+                <td><input type="button"  id="num" value="3" onclick="display('3')"></td>
+                <td><input type="button" id="opr" value="+" onclick="display('+')"></td>
+                <td><input type="button" id="opr" value="-" onclick="display('-')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" id="opr" value="." onclick="display('.')"></td>                
+                <td><input type="button"  id="num"  value="0" onclick="display('0')"></td>
+                <td><input type="button"  id="num"  value="00" onclick="display('00')"></td>
+                <td colspan="2"><input type="button" id="Enter" value="Enter" onclick="equal('Enter')"></td>
+            </tr>
+        </table>
+        <script src="script.js"></script>
+     </body>
+</html>

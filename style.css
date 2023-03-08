@@ -1,0 +1,41 @@
+.calcy {
+    padding: 15px; 
+    width: 350px;
+    height: 440px;
+    margin: auto;
+    background-color: rgb(245, 245, 245);
+}
+.screen{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(196, 228, 238);
+    border: solid black 3px;
+    width: 100%;
+    height: 50px;
+}
+#opr{
+    background-color: rgb(35, 189, 194); 
+    color: darkblue;
+}
+#clear{
+    background-color: rgb(35, 189, 194); 
+    color: darkblue;
+}
+
+#num{
+    background-color: rgb(196, 228, 238);
+    color: black;
+}
+input[type=button]{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: solid black 1px;
+    width: 100%;
+    height: 45px;
+    
+}
+#enter{
+    background-color: darkcyan;
+}
+input :active[type=button]{
+    background: white;
+    box-shadow: #c1c1c1;
+}
