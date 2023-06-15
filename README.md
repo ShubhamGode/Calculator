@@ -1,5 +1,5 @@
 
-# Regular_Calcultor
+# Regular_Calculator
 
 Welcome to the Basic Calculator project! This repository contains a simple and easy-to-use calculator application that performs basic arithmetic operations.
 
