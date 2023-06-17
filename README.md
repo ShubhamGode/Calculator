@@ -20,6 +20,6 @@ Install my-project by simple steps.
 1. To Install my project click on "code" and copy link.
 2. Now open visual studio code.
 3. open new terminal.
-4. Type 'git clone <paste here link>'. 
+4. Type 'git clone paste here link'. 
 
     
